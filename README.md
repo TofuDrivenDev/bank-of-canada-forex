@@ -2,7 +2,7 @@
 
 [![Deploy WasmJS badge](https://github.com/TofuDrivenDev/bank-of-canada-forex/actions/workflows/deploy.yml/badge.svg)](https://github.com/TofuDrivenDev/bank-of-canada-forex/actions/workflows/deploy.yml)
 
-A web app that makes it easier to lookup [Bank of Canada's foreign exchange rates](https://www.bankofcanada.ca/rates/exchange/daily-exchange-rates-lookup/). This tools uses the same dataset from 2017 onwards.
+A web app that makes it easier to lookup [Bank of Canada's foreign exchange rates](https://www.bankofcanada.ca/rates/exchange/daily-exchange-rates-lookup/). This tool contains the same dataset from Bank of Canada.
 
 1. Pick the currencies you want to convert.
 2. Type in the date to start filtering.
