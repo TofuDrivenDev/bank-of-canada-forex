@@ -1,5 +1,5 @@
 # Workflow for deploying WasmJS App to GitHub Pages
-name: "Deploy Wasm 🌐"
+name: "Deploy Wasm 🌐 "
 run-name: "Triggered by ${{ inputs.commit_hash }}"
 
 on:
