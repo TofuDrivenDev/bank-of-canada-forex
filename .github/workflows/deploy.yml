@@ -1,11 +1,17 @@
 # Workflow for deploying WasmJS App to GitHub Pages
 name: "🚀 Deploy Wasm "
+run-name: "Triggered by ${{ inputs.commit_hash }}"
 
 on:
   # push:
   #   branches:
   #     - main  # Trigger the workflow on pushes to the main branch
   workflow_dispatch:  # Allow manual triggering
+    inputs:
+      commit_hash:
+        required: false
+        type: string
+        
 
 permissions:
   contents: read  # Required to fetch the repository content
