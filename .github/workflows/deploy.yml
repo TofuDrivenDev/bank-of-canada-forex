@@ -46,7 +46,7 @@ jobs:
 
       # 4. Build the WasmJS App
       - name: "🛠️ Build WasmJS App"
-        run: gradle :appBankOfCanadaForex:wasmJsBrowserDistribution
+        run: gradle :appBankOfCanadaForex:wasmJsBrowserDistribution -DGITHUB_PAT=${{ secrets.RW_PACKAGES_PAT }}
 
       # 5. Set up GitHub Pages
       - name: "📄 Configure GitHub Pages"
